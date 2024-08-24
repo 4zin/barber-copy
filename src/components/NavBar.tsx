@@ -1,8 +1,8 @@
-import NavButtons from "./Buttons";
+import { NavButtons } from "./Buttons";
 
 export default function NavBar() {
   return (
-    <nav className="bg-[#FFFFFFCC] px-5 py-3 w-[60%] flex flex-col self-end">
+    <nav className="bg-[#FFFFFFCC] px-5 py-3 w-[60%] flex flex-col self-end z-10">
       <div className="flex justify-evenly">
         <NavButtons text="home" link="/" />
         <NavButtons text="book now" link="#" />
@@ -13,9 +13,7 @@ export default function NavBar() {
       </div>
       <div className="border-black border-b"></div>
 
-      <span className="font-semibold tracking-[1.9px] text-base self-end">
-        234
-      </span>
+      <span className="font-bold tracking-[1.9px] text-base self-end">234</span>
     </nav>
   );
 }
