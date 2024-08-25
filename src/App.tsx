@@ -10,7 +10,7 @@ import Services from "./views/Services";
 import Stylists from "./views/Stylists";
 import StylistsDetail from "./views/StylistsDetail";
 
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Link, Route, Routes, useLocation } from "react-router-dom";
 
 function App() {
   const location = useLocation();
@@ -23,14 +23,14 @@ function App() {
         } items-center p-2`}
       >
         {location.pathname !== "/" && (
-          <a href="/">
+          <Link to="/">
             <img
               className="w-[203px] h-48px] ml-5"
               src="/Main-Logo.webp"
               alt="Public Image Logo"
               loading="lazy"
             />
-          </a>
+          </Link>
         )}
         <NavBar />
       </header>
