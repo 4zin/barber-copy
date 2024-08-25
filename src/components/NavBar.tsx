@@ -2,7 +2,7 @@ import { NavButtons } from "./Buttons";
 
 export default function NavBar() {
   return (
-    <nav className="bg-[#FFFFFFCC] px-5 py-3 w-[60%] flex flex-col self-end z-10">
+    <nav className="bg-[#FFFFFFCC] px-5 py-3 w-[60%] flex flex-col gap-2">
       <div className="flex justify-evenly">
         <NavButtons text="home" link="/" />
         <NavButtons text="book now" link="#" />

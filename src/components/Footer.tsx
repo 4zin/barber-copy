@@ -5,7 +5,11 @@ export default function Footer() {
   return (
     <footer className="flex flex-col bg-black px-[33px] py-[20px] gap-3">
       <div className="flex items-center justify-center gap-8">
-        <a href="https://www.instagram.com/publicimagenyc/">
+        <a
+          href="https://www.instagram.com/publicimagenyc/"
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+        >
           <InstagramIcon />
         </a>
         <Text

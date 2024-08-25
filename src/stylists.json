@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "tim",
+    "image": "/tim-image.webp",
+    "profile": "/tim-profile.webp",
+    "background": "/Tim-background.webp"
+  },
+  {
+    "id": 2,
+    "name": "tyler",
+    "image": "/tyler-image.webp",
+    "profile": "/tyler-profile.webp",
+    "background": "/stylists-background.webp"
+  },
+  {
+    "id": 3,
+    "name": "kc",
+    "image": "/kc-image.webp",
+    "profile": "/kc-profile.webp",
+    "background": "/Kc-background.webp"
+  },
+  {
+    "id": 4,
+    "name": "mike",
+    "image": "/mike-image.webp",
+    "profile": "/mike-profile.webp",
+    "background": "/Mike-background.webp"
+  },
+  {
+    "id": 5,
+    "name": "william",
+    "image": "/william-image.webp",
+    "profile": "/william-profile.webp",
+    "background": "/William-background.webp"
+  },
+  {
+    "id": 6,
+    "name": "liz",
+    "image": "/liz-image.webp",
+    "profile": "/liz-profile.webp",
+    "background": "/Liz-background.webp"
+  }
+]

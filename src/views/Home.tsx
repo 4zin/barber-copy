@@ -1,15 +1,14 @@
 import "@fontsource-variable/public-sans";
-import NavBar from "../components/NavBar";
 import { BookButton } from "../components/Buttons";
 import { useEffect, useState } from "react";
 
 export default function Home() {
   const images = [
-    "./bg-2.jpg",
-    "./bg.jpg",
-    "./bg-3.jpg",
-    "./bg-4.jpg",
-    "./bg-5.jpg",
+    "/bg-2.jpg",
+    "/bg.jpg",
+    "/bg-3.jpg",
+    "/bg-4.jpg",
+    "/bg-5.jpg",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -25,7 +24,7 @@ export default function Home() {
   }, [nextImage, images.length]);
 
   return (
-    <section className="h-full min-h-screen flex flex-col p-2 transition-opacity duration-1000 ease-in-out">
+    <section className="relative h-screen flex flex-col p-2 transition-opacity duration-1000 ease-in-out">
       {images.map((image, index) => (
         <div
           key={index}
@@ -35,7 +34,6 @@ export default function Home() {
           style={{ backgroundImage: `url(${image})` }}
         ></div>
       ))}
-      <NavBar />
       <div className="flex flex-col justify-center items-center absolute bottom-20 left-32">
         <img
           className="w-3/4"
