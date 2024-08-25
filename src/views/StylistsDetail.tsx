@@ -11,7 +11,7 @@ export default function StylistsDetail() {
   const stylists = useContext(StylistsContext);
 
   if (!stylists) {
-    throw new Error("useStylists must be used within a StylistsProvider");
+    throw new Error("Stylists must be used within a StylistsProvider");
   }
 
   const filteredStylists = stylists?.filter(
@@ -30,7 +30,7 @@ export default function StylistsDetail() {
 
   return (
     <section
-      className="h-screen bg-cover bg-center transition-all duration-300 ease-in-out"
+      className="bg-fixed bg-center bg-cover min-h-screen py-10 transition-all duration-300 ease-in-out"
       style={{ backgroundImage: `url(${background})` }}
     >
       {stylists && stylists.length ? (

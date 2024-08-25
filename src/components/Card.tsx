@@ -13,7 +13,7 @@ export default function Card({
   return (
     <div className="bg-[#FFFFFFCC] py-[18px] px-[3px]">
       <div className="flex flex-col gap-2">
-        <img src={profile} alt={name} loading="lazy" />
+        <img src={profile} alt={name} loading="lazy" className="aspect-video" />
         <div className="flex flex-col gap-1 justify-center items-center">
           <h2 className="text-[17px] font-semibold tracking-[0.85px]">
             {name}

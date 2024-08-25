@@ -4,7 +4,7 @@ import Text from "../components/Text";
 
 export default function Services() {
   return (
-    <section className="h-screen bg-[url('/services-banner-desktop.webp')] bg-cover bg-center flex flex-col items-center justify-center">
+    <section className="h-screen bg-[url('/services-banner-desktop.webp')] bg-center bg-cover min-h-screen py-10 flex flex-col items-center justify-center">
       <div className="flex w-4/5 justify-between mt-20">
         <div className="w-2/5 flex flex-col gap-5">
           <div className="flex items-center justify-between">

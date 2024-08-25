@@ -1,6 +1,8 @@
 // Components
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import About from "./views/About";
+import Blog from "./views/Blog";
 
 // Views
 import Home from "./views/Home";
@@ -37,6 +39,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/stylists" element={<Stylists />} />
         <Route path="/stylists/:name" element={<StylistsDetail />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/about-us" element={<About />} />
       </Routes>
       {location.pathname === "/" && <Footer />}
     </main>

@@ -3,11 +3,14 @@ import App from "./App.tsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { StylistsProvider } from "./context/stylistContext.tsx";
+import { BlogProvider } from "./context/blogContext.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StylistsProvider>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <BlogProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </BlogProvider>
   </StylistsProvider>
 );

@@ -31,3 +31,22 @@ export function InstagramIcon() {
     </svg>
   );
 }
+
+export function PlusIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="size-6">
+      <path
+        fill="#fff"
+        d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4"
+      />
+    </svg>
+  );
+}
+
+export function MinusIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" className="size-6">
+      <path fill="#fff" d="M18 11H6a2 2 0 0 0 0 4h12a2 2 0 0 0 0-4" />
+    </svg>
+  );
+}

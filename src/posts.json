@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Web 3.0",
+    "image": "/blog-content.webp",
+    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+  },
+  {
+    "id": 2,
+    "title": "Insomnia by Eve",
+    "image": "/blog2.webp",
+    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+  },
+  {
+    "id": 3,
+    "title": "The Secret About That Girl by Eve",
+    "image": "/anoko-secret.webp",
+    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+  },
+  {
+    "id": 4,
+    "title": "Across The Spider-Verse",
+    "image": "/miles.webp",
+    "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+  },
+  {
+    "id": 5,
+    "title": "Lord of the Fortress of Meropide",
+    "image": "wriothesley.webp",
+    "content": "Wriothesley is a playable Ousia-aligned Cryo character in Genshin Impact. Having killed his abusive foster parents to save his adoptive siblings, Wriothesley was sentenced and exiled to the Fortress of Meropide in his teenage years. He eventually became its Administrator and has enforced a series of reforms under his rule, serving as a role model for the prisoners."
+  },
+  {
+    "id": 6,
+    "title": "Yuji Itadori",
+    "image": "/itadori.webp",
+    "content": "Yuji Itadori"
+  }
+]

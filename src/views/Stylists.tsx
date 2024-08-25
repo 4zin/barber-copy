@@ -7,7 +7,7 @@ export default function Stylists() {
   const stylists = useContext(StylistsContext);
 
   return (
-    <section className="bg-[url('/stylists-background.webp')] bg-cover bg-center h-screen flex flex-col justify-center">
+    <section className="bg-[url('/stylists-background.webp')] bg-fixed bg-center bg-cover min-h-screen py-10 flex flex-col justify-center">
       <div className="flex justify-center mt-20">
         {stylists && stylists.length > 0 ? (
           <Cards stylists={stylists} />

@@ -28,7 +28,7 @@ export default function Home() {
       {images.map((image, index) => (
         <div
           key={index}
-          className={`absolute inset-0 bg-no-repeat bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
+          className={`absolute inset-0 bg-norepeat bg-center bg-cover min-h-screen py-10 transition-opacity duration-1000 ease-in-out ${
             index === currentImage ? "opacity-100" : "opacity-0"
           }`}
           style={{ backgroundImage: `url(${image})` }}
